@@ -1,0 +1,456 @@
+Eu sou fascinado pela emulação do WOW desde que eu tinha 14 anos
+
+0: 00: 15.232,0: 00: 18.602
+Ainda me lembro da primeira vez que joguei em um desses "reinos especiais"
+
+0: 00: 18.942,0: 00: 22.189
+Era repleto de bugs, mas ao menos era de graça, sabe?
+
+0: 00: 22.473,0: 00: 26.122
+Eu não tinha um tostão naquela época, então eu não tinha alternativa.
+
+0: 00: 26.122,0: 00: 31,179
+Aos 15 anos, especiali a me perguntar como os servidores privados funcionavam e como poderiam existir
+
+0: 00: 31.179,0: 00: 33.808
+especialmente de uma perspectiva técnica
+
+0: 00: 33.808,0: 00: 40.307
+Alguém roubou o código da Blizzard, talvez? Eu não criar ideia - Eu era tão novo e inexperiente naquela época
+
+0: 00: 40.307,0: 00: 43.488
+Apesar disso, eu comeri a jogar
+
+0: 00: 43.488,0: 00: 50.168
+e com a ajuda de um velho amigo meu - Fabio, eu finalmente consegui instalar um servidor de WOW no meu PC.
+
+0: 00: 50.168,0: 00: 54.847
+Naquela época, eu não suprimida nem imaginar a quantidade de satisfação que eu teria
+
+0: 00: 54.847,0: 00: 59,211
+certas coisas eu teria aprendido graças a este mundo mágico
+
+0: 00: 59.211,0: 01: 03.624
+Pode parecer estranho, mas este mundo ainda me fascina agora, como um adulto
+
+0: 01: 03.624,0: 01: 09.606
+no ponto em que dediquei uma tese de mestrado inteira em Ciência da Computação a este tópico!
+
+0: 01: 11.038,0: 01: 12.072
+Mas ainda ...
+
+0: 01: 12.072,0: 01: 16.785
+Eu odeio a maioria dos servidores privados e realmente quero explicar o porquê
+
+0: 01: 23.801,0: 01: 30.377
+Para que você entenda meu ponto de vista, preciso me deter em alguns parênteses técnicos sobre os processos de trabalho do WoW
+
+0: 01: 30.377,0: 01: 32.966
+que tentarei colocar em palavras simples
+
+0: 01: 32.966,0: 01: 38.809
+No nível do software, existem dois programas que podem ser considerados os atores principais deste jogo:
+
+0: 01: 38.809,0: 01: 40.594
+APLICAÇÃO DE CLIENTE
+
+0: 01: 40.594,0: 01: 47.226
+que é o verdadeiro programa "World of Warcraft" instalado por todos os jogadores em seus computadores para acessar o jogo
+
+0: 01: 47.575,0: 01: 49.128
+APLICATIVO DE SERVIDOR
+
+0: 01: 49.128,0: 01: 52.633
+que é o programa que roda nas máquinas servidoras
+
+0: 01: 52.633,0: 01: 56.866
+O processo é muito simples, todos os clientes ou jogadores
+
+0: 01: 56.866,0: 02: 02.162
+conectar-se a um servidor para interagir uns com os outros. O cliente conhece o endereço do servidor
+
+0: 02: 02.162,0: 02: 06.354
+como está armazenado no famoso "realmlist.wtf"
+
+0: 02: 06.354,0: 02: 11.361
+é por isso que você tem que modificar este arquivo para mudar para outro servidor
+
+0: 02: 21.242,0: 02: 28.645
+Ao jogar em servidores privados, o princípio é exatamente o mesmo. A diferença está no software que você usa.
+
+0: 02: 28.645,0: 02: 32.886
+CLIENTE. Todos têm acesso ao cliente original do World of Warcraft.
+
+0: 02: 32.886,0: 02: 36.513
+Você pode obtê-lo facilmente comprando ou baixando online
+
+0: 02: 36.513,0: 02: 42.115
+Este programa é exatamente aquele que você usaria para jogar no servidor oficial
+
+0: 02: 42.115,0: 02: 48.654
+Obviamente, diferentes servidores privados têm diferentes versões de cliente, mas eles sempre se referem ao cliente original
+
+0: 02: 49.270,0: 02: 53.374
+Você só precisa fazer uma pequena alteração no "realmlist.wtf"
+
+0: 02: 53.374,0: 02: 58.550
+substituindo o endereço do servidor de varejo pelo de um servidor privado
+
+0: 02: 58.550,0: 02: 59.750
+É isso.
+
+0: 03: 01.265,0: 03: 07.178
+SERVIDOR. O servidor é completamente diferente. Ninguém de fora da Blizzard tem acesso ao software original
+
+0: 03: 07.178,0: 03: 09.904
+ que executa os servidores oficiais do World of Warcraft
+
+0: 03: 09.904,0: 03: 13.629
+Portanto, esses aplicativos são completamente diferentes do original.
+
+0: 03: 18.465,0: 03: 23.568
+Todo software que executa servidores privados foi criado por meio da técnica de "engenharia reversa"
+
+0: 03: 23.888,0: 03: 25.239
+que, em palavras simples, significa
+
+0: 03: 31.128,0: 03: 35.741
+A questão agora é: quem implementou este software e quando isso aconteceu?
+
+0: 03: 47.294,0: 03: 52.515
+Quem cria os aplicativos de software que executam os servidores privados do WoW e como eles fazem isso?
+
+0: 03: 57.738,0: 04: 03.789
+Você não precisa ser um especialista para entender que escrever um aplicativo de servidor para um MMORPG
+
+0: 04: 03.789,0: 04: 08.740
+com um escopo tão grande como World of Warcraft certamente não é brincadeira de criança
+
+0: 04: 08.740,0: 04: 12.580
+A Blizzard é uma grande empresa com milhares de funcionários
+
+0: 04: 12.580,0: 04: 23.071
+Escrever um programa que "imite" a operação de seu aplicativo de servidor certamente não é trivial ou viável para um único indivíduo (ou um pequeno grupo de programadores).
+
+0: 04: 23.071,0: 04: 28.973
+E não é apenas uma questão de complexidade. Vamos pensar em tarefas muito triviais, mas repetitivas, como:
+
+0: 04: 28.973,0: 04: 31.233
+adicionando todos os NPCs ao mundo
+
+0: 04: 31.233,0: 04: 36.067
+incluindo cada item de seu saque com sua própria porcentagem de chance
+
+0: 04: 36.067,0: 04: 38.001
+Muito trabalho ...
+
+0: 04: 38.001,0: 04: 43.650
+Sem mencionar todas as tarefas muito complexas que exigem horas de estudo e teste
+
+0: 04: 43.650,0: 04: 45.437
+como a mecânica de feitiços
+
+0: 04: 45.437,0: 04: 46.677
+mecânica do chefe
+
+0: 04: 46.677,0: 04: 47.473
+etc ...
+
+0: 04: 48.972,0: 04: 56.125
+Resumindo .... nem mesmo o melhor programador do mundo seria capaz de fazer todo esse trabalho sozinho.
+
+0: 04: 56.125,0: 05: 00.217
+No entanto, existem servidores privados e o software que os faz funcionar
+
+0: 05: 00.217,0: 05: 06.102
+E alguns servidores privados agora podem oferecer uma qualidade de jogo que não está muito longe do original!
+
+0: 05: 06.102,0: 05: 08.787
+aqui me refiro principalmente às antigas expansões
+
+0: 05: 08.787,0: 05: 10.574
+Como isso é possível?
+
+0: 05: 28.195,0: 05: 37.597
+Para simplificar: um programa de código aberto é um programa cujo código é público.
+No contexto de servidores privados, o código aberto desempenha um papel fundamental
+
+0: 05: 37.597,0: 05: 43.851
+Alguns jogadores veteranos podem se lembrar que, uma vez que a qualidade do jogo em servidores privados era muito ruim
+
+0: 05: 43.851,0: 05: 46.151
+Quase nada funcionou
+
+0: 05: 46.151,0: 05: 53.716
+Por exemplo, se você fosse um ladino furtivo, poderia ser alvo de qualquer pessoa que escreveu / mirou em Seu nome
+
+0: 05: 53.716,0: 05: 57.336
+Adivinhe qual classe escolhi para meu primeiro personagem ...
+
+0: 06: 06.316,0: 06: 09.503
+A verdadeira revolução foi MaNGOS
+
+0: 06: 09.503,0: 06: 16.805
+É um projeto de código aberto criado em 2005, cujo objetivo era fornecer um aplicativo de servidor para World of Warcraft
+
+0: 06: 16.805,0: 06: 23.254
+A grande novidade do MaNGOS, assim como sua força, era o fato de que, como um aplicativo de código aberto
+
+0: 06: 23.254,0: 06: 30.575
+seu código era totalmente público, e qualquer usuário de todo o mundo poderia estudá-lo e oferecer sua própria contribuição
+
+0: 06: 30.575,0: 06: 36.525
+tanto em termos de adicionar ou consertar a mecânica do jogo, mas também em termos de relatar bugs
+
+0: 06: 37.815,0: 06: 43,448
+Só assim, graças à contribuição de muitos voluntários de diferentes nacionalidades.
+
+0: 06: 43.448,0: 06: 50.786
+foi possível desenvolver um aplicativo de servidor capaz de emular o World of Warcraft com uma qualidade de jogo superior.
+
+0: 06: 50.786,0: 06: 58.595
+Em 2009 nasceu outro projeto importante TrinityCore
+
+0: 06: 58.595,0: 07: 05.775
+Até hoje, a grande maioria dos servidores privados roda em aplicativos baseados em MaNGOS / TrinityCore.
+
+0: 07: 05.775,0: 07: 11.755
+Ao longo dos anos, surgiram diferentes projetos, baseados no código MaNGOS / TrinityCore
+
+0: 07: 11.755,0: 07: 15.102
+que variam principalmente de acordo com a versão WoW suportada
+
+0: 07: 15.102,0: 07: 18.906
+Por exemplo, AzerothCore para 3.3.5
+
+0: 07: 18.906,0: 07: 21.874
+OregonCore para 2.4.3
+
+0: 07: 21.874,0: 07: 24.808
+SkyFire para 5.4.8
+
+0: 07: 24.808,0: 07: 30.319
+ CMaNGOS para Classic / TBC / WOTLK e muitos outros
+
+0: 07: 30.319,0: 07: 33.412
+Todos baseados em MaNGOS e / ou TrinityCore.
+
+0: 07: 33.412,0: 07: 38.142
+Portanto, os servidores privados alcançaram tal qualidade apenas graças aos muitos contribuidores
+
+0: 07: 38.142,0: 07: 44.305
+que implementaram mais e mais recursos de jogos ao longo dos anos, de 2005 até hoje
+
+0: 07: 47.067,0: 07: 50.687
+Desculpas pelos flashes, problemas de renderização.
+
+0: 07: 52.489,0: 07: 58.031
+Suponha que Alice e Bob tenham um servidor privado cada, e vamos supor que eles estejam na mesma versão do jogo
+
+0: 07: 58.031,0: 08: 08.085
+Alice e Bob querem lançar um novo conteúdo para seus jogadores, que foi fechado até agora porque os bosses A, B, C e D são bastante problemáticos
+
+0: 08: 09.556,0: 08: 14.660
+Alice é uma desenvolvedora muito boa e pode consertar bosses A e B
+
+0: 08: 15.479,0: 08: 19.668
+Bob ainda é um iniciante e só corrige o chefe C
+
+0: 08: 20.784,0: 08: 26.342
+Em um mundo ideal, Alice e Bob trabalham juntos e trocam suas correções.
+
+0: 08: 26.342,0: 08: 33.767
+Como resultado, ambos os servidores terão bosses A, B e C perfeitamente fixos
+
+0: 08: 33.767,0: 08: 40.395
+Além disso, Alice e Bob unirão forças para trabalhar em D também.
+
+0: 08: 40.395,0: 08: 50,001
+Como resultado, os jogadores em ambos os servidores estão muito felizes. Eles não têm nenhum problema com os bugs, já que os desenvolvedores estão colaborando juntos para corrigi-los
+
+0: 08: 52.616,0: 08: 54.270
+No entanto, no mundo real,
+
+0: 08: 54.270,0: 08: 58.192
+Alice e Bob são rivais e então eles travam guerra um contra o outro
+
+0: 09: 06.129,0: 09: 12.115
+No servidor de Alice, apenas os chefes A e B funcionam. Enquanto no servidor de Bob apenas C
+
+0: 09: 12.115,0: 09: 18.310
+Alguns jogadores passam do servidor de Bob para o de Alice. O servidor de Bob fecha depois de um tempo
+
+0: 09: 18.310,0: 09: 26.814
+Alguns dos jogadores do servidor de Alice param de jogar porque se cansam de sempre fazer apenas A e B porque C e D não funcionam.
+
+0: 09: 27.417,0: 09: 30.937
+Como resultado, os jogadores em ambos os servidores estão insatisfeitos
+
+0: 09: 31.888,0: 09: 35.199
+Alice ganhou mais dinheiro com doações de jogadores do que Bob
+
+0: 09: 37.027,0: 09: 44.899
+Na verdade, o código MaNGOS / TrinityCore (e seus projetos derivados) é lançado sob a licença GNU GPL.
+
+0: 09: 46.386,0: 09: 49.064
+Em palavras simples, esta licença diz o seguinte:
+
+0: 09: 58.832,0: 10: 06.183
+Basicamente, a licença desses projetos exige que aqueles que os utilizam publiquem as alterações ao público.
+
+0: 10: 07.357,0: 10: 12.222
+Claro, a maioria dos servidores privados usa essa licença como papel higiênico
+
+0: 10: 12.222,0: 10: 18.985
+Caso contrário, não deve haver nenhum servidor privado que seja "sem bugs" do que os outros
+
+0: 10: 19.469,0: 10: 27.346
+Aqui está uma lista de mentiras que os administradores de muitos servidores privados WoW continuam contando aos seus jogadores
+
+0: 10: 29.479,0: 10: 36.066
+Não importa quantas mudanças "você" fez. No entanto, você começou com um projeto baseado em MaNGOS
+
+0: 10: 36.066,0: 10: 42.465
+Talvez você tenha feito algumas melhorias, mas a maior parte do código ainda é MaNGOS ou TrinityCore
+
+0: 10: 43.060,0: 10: 47.637
+Talvez você seja realmente bom e tenha reescrito a maior parte do código ao longo dos anos
+
+0: 10: 47.637,0: 10: 48.372
+Ainda!
+
+0: 10: 48.372,0: 10: 56.776
+você começou do MaNGOS. Sem ele, no dia 1 você nem teria o recurso de login funcionando
+
+0: 10: 58.992,0: 11: 03.875
+Na grande maioria dos casos, nenhum deles realmente consertou nada
+
+0: 11: 03.875,0: 11: 11.083
+Eles acabaram de baixar as correções vindas da comunidade de código aberto e as aplicaram em seu núcleo
+
+0: 11: 11.083,0: 11: 14,142
+Ainda assim, eles levam todos os créditos.
+
+0: 11: 16.793,0: 11: 20.119
+Alguns servidores privados realmente consertam as coisas por conta própria.
+
+0: 11: 20.119,0: 11: 29.925
+Eles geralmente têm equipes de desenvolvimento dedicadas que são pagas com o dinheiro proveniente de doações de jogadores.
+A maioria deles não compartilha essas correções com a comunidade de desenvolvimento.
+
+0: 11: 29.925,0: 11: 38.735
+Bem, a comunidade que deu GRATUITAMENTE o software que você está usando para executar seu servidor está pedindo que você os compartilhe
+
+0: 11: 38.735,0: 11: 41.123
+mas você ainda mantém isso privado
+
+0: 11: 46.356,0: 11: 55.632
+Tudo bem cara. Tente pensar sobre o seguinte: se TODOS os desenvolvedores fizessem o que você faz, nem você nem seu servidor privado existiriam
+
+0: 11: 57.184,0: 12: 02.706
+Simplesmente porque nem MaNGOS, TrinityCore, AzerothCore, etc ... existiriam!
+
+0: 12: 04.374,0: 12: 10.930
+Esses projetos existem graças aos desenvolvedores que, ao contrário de você, compartilharam seus códigos.
+
+0: 12: 15.836,0: 12: 21.992
+Não há nada para "roubar". Eles não podem "roubar" o código porque ele não "pertence" a você.
+
+0: 12: 22.584,0: 12: 25.328
+Não, nem mesmo se você realmente escreveu.
+
+0: 12: 26.179,0: 12: 28.997
+A filosofia do código aberto é clara:
+
+0: 12: 36.623,0: 12: 39.398
+Oh você não concorda? Tudo bem.
+
+0: 12: 39.398,0: 12: 44,432
+Então não use nenhum código-fonte aberto e escreva seu próprio emulador WoW do zero.
+
+0: 12: 53.840,0: 13: 02.670
+Eu entendo perfeitamente que toda essa história sobre ética e licenças importa muito pouco para o jogador médio de World of Warcraft
+
+0: 13: 02.670,0: 13: 12.152
+Os jogadores querem apenas jogar em um servidor estável e bem consertado, eles não se importam muito se este servidor colabora com código aberto ou não.
+
+0: 13: 12.152,0: 13: 16.641
+Mas ... tente por um momento ver de outra perspectiva
+
+0: 13: 16.641,0: 13: 23.046
+Os desenvolvedores de projetos de código aberto basicamente não se importam muito com o que os servidores privados fazem
+
+0: 13: 23.046,0: 13: 30.720
+É claro que, como desenvolvedor, você fica irritado ao ver algum administrador de servidor aleatório recebendo créditos por seu trabalho
+
+0: 13: 30.720,0: 13: 38.148
+mas no final isso não muda sua vida. Muitos desenvolvedores de código aberto apenas fazem isso para fins divertidos e educacionais
+
+0: 13: 38.148,0: 13: 45.698
+Na verdade, se TODOS os servidores privados colaborassem com o código aberto, a vida dos jogadores mudaria completamente!
+
+0: 13: 45.698,0: 13: 50.441
+cada servidor forneceria uma experiência de jogo muito melhor para qualquer expansão
+
+0: 13: 50.441,0: 13: 55.486
+O exemplo de Alice e Bob mencionado antes também pode ser aplicado a esse caso.
+
+0: 13: 55.486,0: 13: 58.866
+No entanto, a realidade é apenas esta:
+
+0: 13: 58.866,0: 14: 04.596
+existem muitos servidores privados em todo o mundo, cada um deles sempre funciona nas mesmas coisas,
+
+0: 14: 04.596,0: 14: 11.436
+correndo para fazê-los mais cedo e melhor. Se eles colaborassem um com o outro,
+
+0: 14: 11.436,0: 14: 17.761
+eles evitariam fazer trabalho desnecessário e teriam mais tempo e força de trabalho
+
+0: 14: 19.195,0: 14: 22.213
+Eles certamente seriam capazes de alcançar muito mais
+
+0: 14: 33.707,0: 14: 40.571
+Se um servidor privado for fechado e seus desenvolvedores não compartilharem seu trabalho, esse trabalho será perdido para sempre
+
+0: 14: 40.571,0: 14: 49.512
+O mais interessante é que todos os projetos baseados no MaNGOS são totalmente públicos, então é possível verificar com precisão quem contribuiu com eles.
+
+0: 14: 49.512,0: 14: 56.415
+todas as listas de contribuidores desses projetos são absolutamente públicas e QUALQUER UM pode verificar quem realmente consertou o que
+
+0: 14: 56.415,0: 15: 03.738
+Qualquer projeto de código aberto (geralmente hospedado no GitHub) tem a lista de commits realizados pelos diferentes desenvolvedores
+
+0: 15: 03.738,0: 15: 07.337
+Para cada commit, o autor e a data estão lá.
+
+0: 15: 07.337,0: 15: 13.780
+É muito fácil verificar essas informações, basta abrir o repositório oficial de qualquer emulador
+
+0: 15: 13.780,0: 15: 23.510
+Google, por exemplo, "github TrinityCore" ou "github AzerothCore" e dê uma olhada. Você vai ver quem-faz-realmente-o-quê
+
+0: 15: 23.510,0: 15: 31.931
+Você verá todas as linhas de código, seus autores, comentários de outros desenvolvedores, etc. Você verá tudo. Sem mais mentiras!
+
+0: 15: 31.931,0: 15: 36.674
+se você concorda com essa filosofia, pode estar interessado em ingressar no ChromieCraft
+
+0:15:36.674,0:15:44.933
+Por que ele é um servidor semi-profit desenvolvido por voluntários que compartilham 100% de seu trabalho com a AzerothCore
+
+0: 15: 44.933,0: 15: 50.362
+o projeto de código aberto por trás da emulação do WoW 3.3.5a
+
+0: 15: 50.362,0: 15: 58.668
+Tentei explicar as coisas aqui o mais simples possível, então o que você vai ler pode não ser 100% tecnicamente preciso / detalhado
+
+0: 15: 58.668,0: 16: 04.363
+mas eu realmente fiz o meu melhor para colocar as coisas em palavras simples, a fim de torná-las compreensíveis para os não desenvolvedores.
+
+0: 16: 04.363,0: 16: 06.714
+Os links serão fornecidos na descrição
+
+0: 16: 06.714,0: 16: 08.999
+Obrigado pela atenção, e tenha um bom dia... 
